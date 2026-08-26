@@ -157,6 +157,30 @@ ENV/
 env.bak/
 venv.bak/
 
+# IMAP — dados locais / saídas (nomes atual e legado)
+exercicios/imap_migracao/.env
+exercicios/imap_migracao/contas_teste.csv
+exercicios/imap_migracao/logs/*
+!exercicios/imap_migracao/logs/.gitkeep
+exercicios/imap_migracao/saidas/*
+!exercicios/imap_migracao/saidas/.gitkeep
+exercicios/verificacao_imap_migracao/.env
+exercicios/verificacao_imap_migracao/contas_teste.csv
+exercicios/verificacao_imap_migracao/logs/*
+exercicios/verificacao_imap_migracao/saidas/*
+
+# Inventário — dados locais (nome atual e legado)
+exercicios/inventario_maquinas/dados/*
+!exercicios/inventario_maquinas/dados/.gitkeep
+exercicios/inventario_maquinas/ferramentas/*
+exercicios/sato_inventario_pendrive/dados/*
+exercicios/sato_inventario_pendrive/ferramentas/*
+
+# Binários / cache
+*.exe
+__pycache__/
+*.pyc
+
 # Spyder project settings
 .spyderproject
 .spyproject
